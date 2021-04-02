@@ -31,11 +31,8 @@ public class MainActivity extends Activity {
     public void guessPass(View view) {
 
         textView.setText("Searching...");
-
         Unfreeze unfreeze = new Unfreeze();
         unfreeze.execute();
-
-
     }
 
 
